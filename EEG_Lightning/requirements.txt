@@ -16,3 +16,4 @@ optuna
 pytorch_lightning==1.4.1
 braindecode
 mne==0.23
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
